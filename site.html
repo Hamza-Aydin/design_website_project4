@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./ortak.css">
+    <title>DesignYourSelf</title>
+    <style>
+        *{
+            font-family: 'Oswald', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        
+        <div class="container">
+            <p id="logo">DYS  <small><sub>DesignYourSelf</sub></small>   <i class="fa-solid fa-paintbrush fa-bounce fa-lg"></i></p> 
+            <a href="#" class="link"> Hizmetler</a>
+            <a href="#"class="link">Tasarımcılarımız</a>
+            <a href="#"class="link">Katagoriler</a>
+            <a href="#"class="link">Ayın Trendleri</a>
+            <a href="#"class="link">Yarışmalarımız</a>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Alışveriş
+                </button>
+                <ul class="dropdown-menu" id="dm1">
+                  <li><a class="dropdown-item liste" href="#">Sepetim</a></li>
+                  <li><a class="dropdown-item liste" href="#">Siparişlerim</a></li>
+                  <li><a class="dropdown-item liste" href="#">Kaydettiklerim</a></li>
+                </ul>
+            </div>
+            <input class="search" type="search" placeholder="ara... "><a href="#"><i class="fa-solid fa-magnifying-glass fa-bounce fa-lg" style="color: #000000;"></i></a> 
+        </div>
+    </div>
+    <div class="main">
+        <img style="margin-top: 70px;" class="welcome oval" src="./2.jpg" alt="welcome">
+        <a href="#navbar" class="ok">YUKARI <i class="fa-solid fa-circle-chevron-up fa-flip fa-xl"></i></a>
+        <h1 id="başlık"><b>Kendi Stilini Oluşturma Yolundaki İlk Adımı Attın Hadi Şimdi Neler Yapabileceğimize Bakalım</b></h1>
+        <a id="ok1" href="#article1"><i class="fa-solid fa-angles-down fa-fade fa-2xl" style="color: #000000;"></i></a> 
+    </div>
+    <div id="article1">
+
+        <div class="container1">
+            <h1 style="text-align: center;">Tasarımın Dilinden Anlamak <br> <small>Ünlü Tasarımcıların Sırlarını Öğrenelim</small> <br> <a class="içlink" target="_blank" href="https://blog.altinyildizclassics.com/dunyaca-unlu-moda-tasarimcilarindan-basari-sirlari/">Makaleyi Oku <i class="fa-solid fa-arrow-pointer fa-beat fa-sm" ></i></a> </h1>
+            <img class="oval" style="margin-top: 70px;" src="./3.jpg" alt="tasarım" width="650px">
+        </div>  
+        <hr>
+        <div class="container2">
+            <h1 class="başlık1">Şimdi Sıra Sizde AI Yardımıyla Kendinize Özel Moda Stillerinizi Yaratmaya Başlayın <br> <a class="içlink" href="#">YourDesigner'a Git  <i class="fa-solid fa-arrow-pointer fa-beat fa-sm" ></i></a> </h1>
+            <img class="foto oval" src="./5.jpg" alt="tasarım" width="650px">
+        </div>
+        <hr>
+        <div class="container3">
+            <h1 style="text-align: center;">Aylık Düzenlediğimiz Ödüllü Tasarım Yarışmalarımıza Katılın <br> <a class="içlink"style="width:150px; display: inline-block;" href="#">Başvur  <i class="fa-solid fa-arrow-pointer fa-beat fa-sm" ></i></a></h1>
+            <img class="oval" style="margin-right: 40px;" src="./6.jpg" alt="yarışma" width="650px">
+        </div>
+        <hr>
+        <div class="container4">
+            <h1 style="order: 2; text-align: center;">Influencer'ların Sizler için Tasarladıkları Haftanın Trendlerine Göz Atın <br> <a class="içlink" style="width:150px; display: inline-block;" href="#">İncele <i class="fa-solid fa-arrow-pointer fa-beat fa-sm" ></i> </a></h1>
+            <img class="oval" style="order: 1; margin-left: 50px; margin-bottom: 30px;" src="./7.jpg" alt="influencer" width="650px">
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container5">
+            <h1>Görüş ve Önerilerinize Her Zaman Açığız</h1>
+            <h2>Formu Doldurun Size Ulaşalım</h2>
+            <form action="#">
+                <div class="container6">
+                    <input  type="text" placeholder="isminiz..."class="iletişim">
+                    <input type="number" placeholder="telefon numaranız..."class="iletişim">
+                    <input type="mail" placeholder="mail adresiniz..."class="iletişim">
+                    <textarea name="not" cols="20" rows="5" placeholder="söylemek istedikleriniz..."class="iletişim"></textarea> 
+                </div>
+
+                <button style="margin-left: 5px;" type="submit"class="iletişim içlink">Gönder</button>
+                <button type="reset"class="iletişim içlink">Temizle</button>
+            </form>
+            <div class="container7">
+                <a href="#"><i class="fa-brands fa-square-instagram fa-flip fa-2xl" style="color: #c200db;margin-right: 25px;"></i></a> 
+                <a href="#"><i  class="fa-brands fa-square-x-twitter fa-flip fa-2xl" style="color: #000000; margin-right: 25px;"></i></a> 
+                <a href="#"><i class="fa-brands fa-linkedin fa-flip fa-2xl" style="color: #0274b3;"></i></a> 
+            </div>
+                   
+        </div>
+        
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

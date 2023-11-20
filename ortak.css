@@ -1,0 +1,21 @@
+.genelbutton{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(243, 186, 0);
+    border-radius: 15px;
+    padding: 10px;
+}
+.genelbutton:hover{
+    color:rgb(243, 186, 0) ;
+    background-color: black;
+    border: 2px rgb(243, 186, 0) solid;
+}
+#footer{
+    background-image: url(./8.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.oval{
+    border-radius: 25px;
+}
